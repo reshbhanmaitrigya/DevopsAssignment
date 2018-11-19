@@ -1,0 +1,10 @@
+echo "Enter Basic :"
+read basic
+da=` expr $basic \* 34 / 100 `
+echo 'da:' $da
+hra=` expr $basic \* 24 / 100 `
+echo 'hra:' $hra
+pf=` expr $basic \* 11 / 100 `
+echo 'pf:' $pf
+salary=`expr $basic + $da + $hra - $pf `
+echo 'salary:' $salary
